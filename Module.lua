@@ -16,4 +16,8 @@ function module.FoundGame()
     end
 end
 
+function module.name()
+    return identifyexecutor() .." | 💜Luminary💜 | " .. game:GetService("MarketplaceService"):GetProductInfo(game.PlaceId).Name
+end
+
 return module
